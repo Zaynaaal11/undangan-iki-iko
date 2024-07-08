@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="The Wedding OF : IKI & IKO">
+    <meta property="og:description" content="Jum'at, 26 Juli 2024">
+    <meta property="og:type" content="website">
+
+    <!-- my fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet" />
+
+    <!-- father icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Lightbox -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <title>The Wedding Of : Rifki & Aniqotul Faridah</title>
+    <link rel="shortcut icon" href="images/logo.png" />
+    <!-- toastr -->
+    <link rel="stylesheet" href="assets/toastr/toastr.min.css">
+    <!-- sweaatalert -->
+    <link rel="stylesheet" href="assets/sweetalert2/sweetalert2.min.css">
+    <!-- Aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    
+    <!-- popup start -->
+    <div id="myPopup" class="popup">
+      <div class="popup-container">
+        <div class="popup-content">
+          <h2 class="example1" data-aos="fade-down" data-aos-delay="800">The Wedding Of</h2>
+          <h1 data-aos="zoom-in" data-aos-delay="0" data-aos-duration="2000">IKI <span> &</span> IKO</h1>
+          <button data-aos="fade-up" data-aos-delay="800" class="close"><i data-feather="mail" style="vertical-align: middle; "></i> Buka Undangan</button>
+          <audio id="popupAudio" src="audio/utsmansong.mp3"></audio> <!-- Ganti dengan path file audio yang sesuai -->
+        </div>
+      </div>
+    </div>
+    
+    <!-- popup end -->
+    <!-- my Logo  -->
+    <!-- Elemen logo -->
+      <div id="logo">
+        <img src="images/logo.png" alt="Logo" />
+      </div>
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <div class="slider">
+        <img src="images/event/event.jpg" alt="" class="slide">
+        <img src="images/event/event1.jpg" alt="" class="slide">
+        <img src="images/event/event2.jpg" alt="" class="slide">
+      </div>
+      <div class="content">
+        <h4>The <span> Wedding Of</span></h4>
+        <h1>IKI<span> &</span> IKO</h1>
+        <a href="">Save The Date | <span>26 . 07 . 2024</span></a>
+        <div class="countdown" id="countdown">
+          <div class="waktu">
+            <h5 id="days"></h5>
+            <p>Days</p>
+          </div>
+          <div class="waktu">
+            <h5 id="hours"></h5>
+            <p>Hours</p>
+          </div>
+          <div class="waktu">
+            <h5 id="minutes"></h5>
+            <p>Minutes</p>
+          </div>
+          <div class="waktu">
+            <h5 id="seconds"></h5>
+            <p>Seconds</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- section quran start -->
+    <section class="quran" id="quran">
+      <div class="row">
+        <div class="quran-img" data-aos="zoom-in" data-aos-duration="2000">
+          <img src="images/quran.png" alt="quran" />
+        </div>
+        <div class="content">
+          <h3 data-aos="fade-up" data-aos-delay="700" data-aos-duration="2000">QS Ar-rum 21</h3>
+          <p data-aos="fade-up" data-aos-delay="1000" data-aos-duration="2000">"Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dan jenismu sendiri, agar kamu cenderung dan merasa tentram kepadanya, dan dia menjadikan di antaranya rasa kasih dan sayang"</p>
+        </div>
+      </div>
+    </section>
+    <!-- section quran end -->
+
+    <!-- section about start -->
+    <section class="about" id="about">
+      <div class="row">
+        <div class="about-img" data-aos="zoom-in-up">
+          <img src="images/iki.jpg" alt="about" />
+        </div>
+        <div class="content">
+          <h3 data-aos="fade-up" >Rifki Khoerul Rizal ( Iki ) </h3>
+          <p data-aos="fade-up" data-aos-delay="300"  >Putra Ke tiga Dari :</p>
+          <span data-aos="fade-up" data-aos-delay="300" >Kh. Khoiruddin Syarif (Alm) & Ibu Hj. Munzilah ( Alm ) </span>
+        </div>
+      </div>
+    </section>
+    <!-- section about end -->
+
+    <!-- section about2 start -->
+    <section class="about2" id="about2">
+      <div class="row">
+        <div class="about2-img" data-aos="zoom-in-up">
+          <img src="images/iko.jpg" alt="about2" />
+        </div>
+        <div class="content">
+          <h3 data-aos="fade-up">Aniqotul Faridah ( Ceceu / Iko ) </h3>
+          <p data-aos="fade-up" data-aos-delay="300">Putri Ke Tiga Dari :</p>
+          <span data-aos="fade-up" data-aos-delay="300">Kh. Dedi Junaedi & Ibu Euis Muntaqoh </span>
+        </div>
+      </div>
+    </section>
+    <!-- section about2 end -->
+
+
+    <section class="bg-event">
+      <main class="event" id="date">
+        <h2 data-aos="fade-right">Wedding <span>Event</span></h2>
+  
+        <div class="card" data-aos="fade-up-right" data-aos-delay="1000" data-aos-duration="1000">
+          <div class="box-img">
+            <div class="slider-img">
+              <img src="images/event/event.jpg" alt="" class="event-img" />
+              <img src="images/event/event1.jpg" alt="" class="event-img" />
+              <img src="images/event/event2.jpg" alt="" class="event-img" />
+              
+            </div>
+          </div>
+          <div class="box-date">
+            <div class="title-event">
+              <h3>Akad Nikah </h3>
+            </div>
+            <div class="date-event"> 
+              <div class="tgl">
+                <h4>26</h4>
+              </div>
+              <div class="detail">
+                <h5>Jum'at</h5>
+                <h5>Juli</h5>
+                <h5>2024</h5>
+              </div>
+
+              <div class="jam">
+                <p><i data-feather="clock" style="color: #000;"></i> 08.00 WIB </p>
+                <div class="lokasi">
+                  <h5>Lokasi Acara</h5>
+                  <p>Pondok Pesantren Bidayatul Mutafakirin Kp. Bujal Rt02/02 Desa. Cipanas Kec. Cipanas Kab. Lebak - Banten</p>
+                  <a href="https://maps.app.goo.gl/5dYYoTYySByN3qn27" target="_blank" class="cbt">Google Maps</a>
+               </div>
+              </div>
+           </div>
+        </div>
+      </main>
+      <main class="event-2" id="date">
+  
+        <div class="card" data-aos="fade-up-left" data-aos-duration="1000"  data-aos-delay="1000"> 
+          <div class="box-img">
+            <div class="slider-img">
+              <img src="images/event/event.jpg" alt="" class="event-2-img" />
+              <img src="images/event/event1.jpg" alt="" class="event-2-img" />
+              <img src="images/event/event2.jpg" alt="" class="event-2-img" /> 
+            </div>
+          </div>
+          <div class="box-date">
+            <div class="title-event-2">
+              <h3>Resepsi </h3>
+            </div>
+            <div class="date-event-2"> 
+              <div class="tgl">
+                <h4>26</h4>
+              </div>
+              <div class="detail">
+                <h5>Jum'at</h5>
+                <h5>Juli</h5>
+                <h5>2024</h5>
+              </div>
+
+              <div class="jam">
+                <p><i data-feather="clock" style="color: #000;"></i> 08.00 WIB </p>
+                <div class="lokasi">
+                  <h5>Lokasi Acara</h5>
+                  <p>Pondok Pesantren Bidayatul Mutafakirin Kp. Bujal Rt02/02 Desa. Cipanas Kec. Cipanas Kab. Lebak - Banten</p>
+                  <a href="https://maps.app.goo.gl/5dYYoTYySByN3qn27" class="cbt">Google Maps</a>
+               </div>
+              </div>
+           </div>
+        </div>
+      </main>
+    </section>
+    <!-- end Event Section-->
+
+    <!-- Start Galley Section -->
+     <div class="bg-gallery">
+      <section class="gallery" id="gallery">
+        <h2 data-aos="fade-right">Pengangkat Hajat</h2>
+                <h3 data-aos="fade-right">Keluarga Besar Ponpes Bidayatul Mutafakirin (Bondong)</h3>
+                <h3 data-aos="fade-right">Keluarga Besar Ponpes Al-Huda Nurul Khoer (Cigombong)</h3>
+                <h3 data-aos="fade-right">Keluarga Besar Bani Yusuf(Bp. Kh. Yusuf Alm. Cigombong - Bogor)</h3>
+                <h3 data-aos="fade-right">Ibu Ustadzah Hj. Nurul Fajriyani (Kakanda)</h3>
+        <h2 data-aos="fade-right">Turut Mengundang</h2>
+                <h3 data-aos="fade-right">Bp. Kh. Sobaruddin (Pimpinan Ponpes Al-Mujahid)</h3>
+                <h3 data-aos="fade-right">Bp. Ustadz Heri (Pimpinan Ponpes Jihadul Mutafakirin)</h3>
+                  <h3 data-aos="fade-right">Bp. Ustadz Jajang Azhar Hqbiby (Pimpinan Ponpes Taufiqul Mutafakirin)</h3>
+                  <h3 data-aos="fade-right">Bp. H. Muhammad (Tokoh Masyarakat Kp. Cipaniis)</h3>
+                  <h3 data-aos="fade-right">Bp. Adang Suhandi (Tokoh Masyarakat Kp. Bondong)</h3>
+                  <h3 data-aos="fade-right">Ibu Ustadzah Yayah Suhariah ( Pengasuh TPA Al-Wildan )</h3>
+                  <h3 data-aos="fade-right">Bp. Amil Sholeh (Kp. Kondang)</h3>
+                  <h3 data-aos="fade-right">Bp. Dede Suparyana/Dede badut ( Ketua Pemuda Kp. Bujal )</h3>
+                  <h3 data-aos="fade-right">Bp. H. Entut Suarta (DKM Masjid At-Taqwa Kp. Bujal)</h3>
+                  <h3 data-aos="fade-right">Bp. H. Didih (Tokoh Masyarakat Kp. Bujal)</h3>
+                  <h3 data-aos="fade-right">Bp. H. Onden (Tokoh Masyarakat Kp. Bujal)</h3>
+                  <h3 data-aos="fade-right">Bp. H. Ujang Parjo (Ketua Rw02 Kp. Bujal)</h3>
+                  <h3 data-aos="fade-right">Bp. Mukhtaruddin (Kepala Desa Cipanas)</h3>
+                  <h3 data-aos="fade-right">Keluarga Besar Saung Bahagia Cipaniis</h3>
+      </section>
+    </div>
+    <!-- End Galley Section-->
+    <!-- Start Wedding gift -->
+    <section class="gift" id="gift">
+      <h2 data-aos="fade-down" >Wedding Gift</h2>
+      <p data-aos="fade-up" data-aos-delay="0">Bagi bapak/ibu/saudara/i yang ingin mengirimkan hadiah pernikahan dapat melalui virtual account atau e-wallet di bawah ini:</p>
+      <div class="buttom" data-aos="fade-up" >
+        <a class="rekening" id="show-cards"> Kilk Disini <i data-feather="arrow-right" style="vertical-align: middle"></i></a>
+      </div>
+      <div class="card-container" id="card-container">
+        <div class="card">
+          <h3>DANA</h3>
+          <h5 id="textSalin">0857-1977-2011</h5>
+          <p id="yani">Aniqotul Faridah</p>
+          <button class="salin" id="show-cards" onclick="noUtsman()"> <i data-feather="copy" style="vertical-align: middle"></i> Salin No.Dana </button>
+        </div>
+        <div class="card">
+          <h3>DANA</h3>
+          <h5 id="textSalin2">0857-1905-7051</h5>
+          <p id="yani">Rifki Khoerul Rijal</p>
+          <button class="salin" onclick="noYani()" id="show-cards"> <i data-feather="copy" style="vertical-align: middle"></i> Salin No.Dana </button>
+        </div>
+    
+      </div>
+    </section>
+    <!-- End Wedding gift -->
+    <!-- Start RSVP -->
+   <!-- <section class="rsvp">
+      <div class="row">
+
+        <img src="images/rsvp.jpg" alt="" class="rsvp-img">
+        <div class="message" data-aos="fade-down">
+          <form id="formMessage"  >
+            <div class="input-group">
+              <input type="text" name="nama" placeholder="Nama">
+            </div>
+            <div class="input-group">
+              <input type="text" name="hubungan" placeholder="Hubungan (Saudara, Teman Kerja, Teman Sekolah)">
+            </div>
+            <div class="input-group">
+              <textarea  cols="30" rows="10" name="pesan" placeholder="Berikan Ucapan & Doa Terbaik Untuk kedua Mempelai"></textarea>
+            </div>
+            <button type="submit" class="btn">Send  <i data-feather="arrow-right" data-aos="fade-up" style="vertical-align: middle"></i></button>
+          </form>
+          <div class="container-card" data-aos="fade-up">
+            <div class="card-message">
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- End RSVP -->
+
+    <!-- Start Doa -->
+    <section class="doa" id="home">
+  
+      <div class="content">
+        <h1 >TerimaKasih</h1>
+        <h4>Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do’a restu kepada kami.</h4>
+        <h4 style="margin-top: 8rem;" >KAMI YANG BERBAHAGIA</h4>
+        <h3 >Iki <span>&</span> Iko</h3>
+      </div>
+    </section> 
+    <!-- End Doa -->
+
+    <!-- start footer -->
+    <footer>
+      <div class="logo" >
+        <img src="images/logo.png" alt="logo">
+        <a href="https://www.instagram.com/zaynaaal11?igsh=aWM0Yno4OHB0NG1i" style="vertical-align: middle">IG @Zaynaaal11</a>
+      </div>
+      <div class="socials" >
+        <a href="https://wa.me/6281387646616" class="wa"  >
+          WA : 0813 8764 6616 
+        </a>
+      </div>
+      <div class="credit" >
+        <p>Copyright &copy; 2024</p>
+        <h5>HUBUNGI KAMI</h5>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- father icons -->  
+    <script>
+      feather.replace();
+    </script>
+    <!-- jquery -->
+    <script src="js/jquery.js"></script>
+    <!-- arctext -->
+    <script src="js/script.js"></script>
+    <!-- Lihgtbox js -->
+    <script src="js/lightbox-plus-jquery.js"></script>
+    <!-- Message Strorage -->
+    <script src="js/strorage.js"></script>
+    <!-- toastr -->
+    <script src="assets/toastr/toastr.min.js"></script>
+    <!-- Aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- arctext -->
+    <script src="assets/Arctext/js/jquery.arctext.js"></script>
+    <!-- sweetalert -->
+    <script src="assets/sweetalert2/sweetalert2.all.min.js"></script>
+    <script>
+       
+        const gallery = document.querySelectorAll('.img');
+
+        gallery.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+        });
+        AOS.init({
+          duration: 1500,
+          once: true
+        });
+      </script>
+     
+  </body>
+</html>
